@@ -14,7 +14,9 @@ class PoppyEnv(gym.Env):
   metadata = {'render.modes': ['human']}
 
   def __init__(self):
-    ...
+    self.__version__ = "0.1.0"
+    logging.info("BananaEnv - Version {}".format(self.__version__))
+    self.MAX_PRICE = 2.0
   def step(self, action):
     ...
   def reset(self):
