@@ -10,7 +10,7 @@ from gym.envs.registration import register
 
 register(
     id='poppy-v0',
-    entry_point='gym_poppy.envs:PoppyEnv',
+    entry_point='gym_poppy_sub.envs:PoppyEnv',
 )
 # =============================================================================
 # register(
